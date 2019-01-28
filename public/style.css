@@ -1,0 +1,199 @@
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #b3b3b3;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    width: 250px;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 30px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px #b3b3b3;
+    background-color: #AAA;
+}
+
+.App {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+
+#ItemContainer {
+    background-color: ghostwhite;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Add-Task-Submit {
+    width: 400px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+#Submit:hover {
+    background-color: #706f6f;
+}
+
+#Add-Task {
+    width: 400px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+#Add-Task::placeholder {
+    color: dimgrey;
+}
+
+#Del-All {
+    width: 400px;
+    height: 30px;
+    background-color: #ed573e;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+#Del-All:hover {
+    background-color: #ed463e;
+}
+
+.Item {
+    width: 400px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+}
+
+.Item-Data {
+    width: 300px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.Complete {
+    text-decoration: line-through;
+}
+
+#Input-Container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.Item-Del {
+    width: 60px;
+    height: 30px;
+    background-color: #ed573e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.Item-Del:hover {
+    background-color: #ed463e;
+}
+
+.Input-Edit {
+    width: 60px;
+    height: 30px;
+    background-color: #1b9ae9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.Input-Edit:hover {
+    background-color: #1b8fe9;
+}
+
+.Item-Submit {
+    width: 60px;
+    height: 30px;
+    background-color: #f1af06;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.Item-Wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.Item-Input {
+    width: 300px;
+    margin-right: 18px;
+    border-radius: 8px;
+    border: solid 1px #e8e8e8;
+    background-color: #e8e8e8;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.Item-Input:focus {
+    outline: 5px;
+}
+
+#Header {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
